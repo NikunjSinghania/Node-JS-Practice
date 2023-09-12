@@ -1,6 +1,8 @@
 const { add, sub } = require('./sum')
 const Hero = require('./Hero')
+const data = require('./data.json')
 
+console.log(data.name);
 
 const batman = new Hero('Batman')
 console.log(batman.getName());
